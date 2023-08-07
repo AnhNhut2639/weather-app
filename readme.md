@@ -26,7 +26,7 @@ git clone <repository-url>
 2. Navigate to the project directory:
 
 ```bash
-cd react-native-tailwind
+cd weather-app
 ```
 3. Install the dependencies:
 
