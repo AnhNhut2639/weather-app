@@ -3,8 +3,9 @@
 This is a React Native weather app that allows users to get up-to-date weather information for different locations. The app is built using React Native and styled with Tailwind CSS.
 
 # UI
-![Alt text](weather.jpg)
-![Alt text](weather-2-1.jpg)
+<img src="weather.jpg" alt="Image" width="300" height="600">
+<img src="weather-2-1.jpg" alt="Image" width="300" height="600">
+
 ## Features
 
 - Current weather information for a given location
