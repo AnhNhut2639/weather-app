@@ -48,7 +48,7 @@ export default function HomeScreen() {
   }, []);
   const fetchMyWeatherData = async () => {
     let myCity = await getData("city");
-    let cityName = "Islamabad";
+    let cityName = "Ha Noi";
     if (myCity) cityName = myCity;
 
     fetchWeatherForecast({
@@ -104,8 +104,10 @@ export default function HomeScreen() {
                   <MagnifyingGlassIcon size="25" color="white" />
                 </TouchableOpacity>
               </View>
-              {locations.length > 0 && showSearch ? (
-                <View className="absolute w-full bg-gray-300 top-16 rounded-3xl">
+              {locations.length > 0 &&
+              locations.length !== null &&
+              showSearch ? (
+                <View className="absolute w-full bg-gray-300 top-24 rounded-3xl">
                   {locations.map((loc, index) => {
                     let showBorder = index + 1 != locations.length;
                     let borderClass = showBorder
